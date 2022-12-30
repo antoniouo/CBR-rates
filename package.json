@@ -1,0 +1,36 @@
+{
+  "name": "exchange-rates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "webpack serve --config webpack/webpack.dev.js --progress",
+    "build": "webpack --progress --config webpack/webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.30",
+    "@types/react": "17.0.44",
+    "@types/react-dom": "17.0.16",
+    "babel-loader": "8.2.5",
+    "clean-webpack-plugin": "4.0.0",
+    "copy-webpack-plugin": "10.2.4",
+    "css-loader": "6.7.1",
+    "html-webpack-plugin": "5.5.0",
+    "less-loader": "10.2.0",
+    "style-loader": "3.3.1",
+    "ts-loader": "9.2.9",
+    "typescript": "4.6.4",
+    "typescript-plugin-css-modules": "3.4.0",
+    "webpack": "5.72.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.8.1",
+    "webpack-merge": "5.8.0"
+  }
+}
